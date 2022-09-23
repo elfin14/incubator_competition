@@ -55,3 +55,59 @@ console.log(FCC, fact); // Change this line
 
 //Одиннадцатое задание
 const sum = 10 + 10;
+
+// Двенадцатое задание
+const difference = 45 - 33;
+
+// Тринадцатое задание
+const product = 8 * 10;
+
+// Четырнадцатое задание
+const quotient = 66 / 33;
+
+// Пятнадцатое задание
+let myVar = 87;
+myVar++;
+
+
+// Шестнадцатое задание
+let myVars = 11;
+myVar--;
+
+// Семнадцатое задание
+const ourDecimal = 5.7;
+const myDecimal = 5.7;
+
+// Восемнадцатое задание
+const product2 = 2.0 * 2.5;
+
+// Девятнадцатое задание
+const quotients = 4.4 / 2.0; // Change this line
+
+// Двадцатое задание
+const remainder = 11 % 3;
+
+// Двадцать первое задание
+let a = 3;
+let b = 17;
+let c = 12;
+
+a += 12;
+b += 9;
+c += 7;
+
+// Двадцать второе задание
+let a = 11;
+let b = 9;
+let c = 3;
+a -= 6;
+b -= 15;
+c -= 1;
+
+// Двадцать третье задание
+let a = 5;
+let b = 12;
+let c = 4.6;
+a *= 5;
+b *= 3;
+c *= 10;

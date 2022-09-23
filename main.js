@@ -111,3 +111,32 @@ let c = 4.6;
 a *= 5;
 b *= 3;
 c *= 10;
+
+// Двадцать четвертое
+a /= 12;
+b /= 4;
+c /= 11;
+
+// Двадцать пятое
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+
+// Двадцать пятое
+const myStr1 = "I am a \"double quoted\" string inside \"double quotes\".";
+
+// Двадцать шестое
+const myStr2 = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+// двадцать седьмое
+const myStr3 = "FirstLine\n\t\\SecondLine\nThirdLine";
+
+// Двадцать восьмое
+const myStr4 = "This is the start. " + "This is the end.";
+
+// Двадцать девятое
+let myStr5 = "This is the first sentence. ";
+myStr5 += "This is the second sentence.";
+
+// Тридцатое
+const myName = "Tim";
+const myStr6 = " My name is" + myName + "and I am well!";
+

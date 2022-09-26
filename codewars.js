@@ -10,7 +10,6 @@ function past(h, m, s) {
 // Второе задание
 function removeExclamationMarks(s) {
     let result = s.replace(/!/g, '')
-    console.log(result)
     return result;
 };
 removeExclamationMarks("Привет!")
@@ -22,4 +21,37 @@ function firstNonConsecutive(arr) {
             return arr[i];
     }
     return null;
+}
+// Четвертое задание
+function solution(str) {
+    let array = str.split("");
+    let reverseArray = array.reverse();
+    let string = reverseArray.join("")
+    return string
+}
+
+// Пятое задание
+function makeNegative(num) {
+    if (num <= 0) {
+        return num;
+    } else {
+        return Number("-" + num);
+    }
+    return
+}
+// шестое задание
+const areaOrPerimeter = function (l, w) {
+    let sum = l === w ? l * w : (l * 2) + (w * 2);
+};
+areaOrPerimeter(2, 1)
+
+// Седьмое задание
+function hoopCount(n) {
+    let count = n >= 10 ? "Great, now move on to tricks" : "Keep at it until you get it";
+    return count
+}
+
+// Востмое задание
+function removeEveryOther(arr) {
+    return arr.filter((_, index) => index % 2 === 0);
 }

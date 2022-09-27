@@ -55,3 +55,53 @@ function hoopCount(n) {
 function removeEveryOther(arr) {
     return arr.filter((_, index) => index % 2 === 0);
 }
+
+// Девятое задание
+function fakeBin(x) {
+    var arr = [];
+    for (var i = 0; i < x.length; i++) {
+        if (Number(x[i] < 5)) {
+            arr.push(0);
+        }
+        else {
+            arr.push(1);
+        }
+
+    }
+    return arr.join("")
+}
+fakeBin("123456789")
+
+//  Десятое задание
+function maps(x) {
+    return arr = x.map(i => i * 2);
+}
+maps([1, 2, 3])
+
+// Одиннадцатое задание
+function booleanToString(b) {
+    let string = b === true ? "true" : "false"
+    return string
+}
+
+// Двеннадцатое задание
+function countPositivesSumNegatives(input) {
+    let arr = []
+    let index = input.reduce((a, v) => v > 0 ? a + 1 : a, 0);
+    let summ = input.reduce((a, v) => v < 0 ? a + v : a, 0);
+    arr.push(index, summ)
+    return arr
+}
+countPositivesSumNegatives([1, 2, 3, 4, 5, 6, -1, -2, -3, -4, -5])
+
+// Тринадцатое задание
+function solution(str, ending) {
+    return str.indexOf(ending, str.length - ending.length) !== -1
+}
+solution("sum0", "0m0")
+
+// Четырнадцатое задание
+const stringToNumber = function (str) {
+    let num = Number(str)
+    return num;
+}

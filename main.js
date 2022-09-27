@@ -140,3 +140,187 @@ myStr5 += "This is the second sentence.";
 const myName = "Tim";
 const myStr6 = " My name is" + myName + "and I am well!";
 
+// Тридцать первое
+const someAdjective = "crazy";
+let myStr7 = "Learning to code is ";
+myStr += someAdjective;
+
+// Тридцать второе
+let lastNameLength = 0;
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
+
+// Тридцать третье
+let firstLetterOfLastName = "";
+const lastName1 = "Lovelace";
+firstLetterOfLastName = lastName[0];
+
+// Тридцать четвертое
+let myStr8 = "Jello World";
+myStr = "Hello World"
+
+// Тридцать пятое
+const lastName2 = "Lovelace";
+const thirdLetterOfLastName = lastName[2];
+
+// Тридцать шестое
+const lastName3 = "Lovelace";
+const lastLetterOfLastName = lastName[lastName.length - 1];
+
+// Тридцать седьмое
+const lastName4 = "Lovelace";
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]
+
+// Тридцать восьмое
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
+
+// Тридцать девятое
+const myArray = ["Hello", 10];
+
+// Сороковое
+const myArray1 = [[1, 2], [3, 4]];
+
+// Сорок первое
+const myArray2 = [50, 60, 70];
+const myData = myArray[0];
+
+// Сорок второе
+const myArray3 = [18, 64, 99];
+myArray[0] = 45;
+
+// Сорок третье
+const myArray = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14],
+];
+const myData1 = myArray[2][1];
+
+// Сорок четветрое
+const myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 3])
+
+// Сорок пятое
+const myArray = [["John", 23], ["cat", 2]];
+const removedFromMyArray = myArray.pop();
+
+// Сорок шестое
+const myArray = [["John", 23], ["dog", 3]];
+const removedFromMyArray1 = myArray.shift()
+
+// Сорок седьмое
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35])
+
+// Сорок восьмое
+const myList = [
+    ["milk", 3], ["eggs", 20], ["bread", 2], ["carrots", 15], ["potatoes", 4]
+];
+// Сорок девятое
+function reusableFunction() {
+    console.log("Hi World");
+}
+reusableFunction()
+
+// Пятядесятое
+function functionWithArgs(a, b) {
+    console.log(a + b);
+}
+functionWithArgs(1, 1)
+
+// Пятьдесят первое
+function timesFive(num) {
+    return num * 5;
+}
+timesFive(5)
+
+// Пятьдесят второе
+const myGlobal = 10;
+
+function fun1() {
+    oopsGlobal = 5
+}
+function fun2() {
+    var output = "";
+    if (typeof myGlobal != "undefined") {
+        output += "myGlobal: " + myGlobal;
+    }
+    if (typeof oopsGlobal != "undefined") {
+        output += " oopsGlobal: " + oopsGlobal;
+    }
+    console.log(output);
+}
+
+// Пятьдесят третье
+function myLocalScope() {
+    let myVar = 10
+    console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+console.log('outside myLocalScope', myVar);
+
+// Пятьдесят четвертое
+const outerWear = "T-Shirt";
+function myOutfit() {
+    let outerWear = "sweater";
+    return outerWear;
+}
+myOutfit();
+
+// Пятьдесят пятое
+let sum1 = 0;
+function addThree() {
+    sum = sum + 3;
+}
+function addFive() {
+    sum = sum + 5;
+}
+addThree();
+addFive();
+// Пятьдесят шестое
+let processed = 0;
+function processArg(num) {
+    return (num + 3) / 5;
+}
+processed = processArg(7)
+
+// Пятьдесят сельмое
+function nextInLine(arr, item) {
+    arr.push(item);
+    let result = arr.shift()
+    return result;
+}
+const testArr = [1, 2, 3, 4, 5];
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+
+// Пятьдесят восьмое
+function welcomeToBooleans() {
+    return true;
+}
+
+// Пятьдесят девятое
+function trueOrFalse(wasThatTrue) {
+    if (wasThatTrue) {
+        return "Yes, that was true"
+    }
+    return "No, that was false"
+
+}
+// Шестидесятое
+function testEqual(val) {
+    if (val == 12) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+testEqual(10);
+
+
